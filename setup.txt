@@ -1,0 +1,10 @@
+REPIN=1 ./bazelisk-linux-amd64 run @unpinned_maven//:pin
+
+# Runs the fuzzer
+./bazelisk-linux-amd64 run //examples:XStreamFuzzer
+
+# Runs the fuzzer with input Corpora
+
+./bazelisk-linux-amd64 run //examples:XStreamFuzzer -- PATH/TO/JAZZER/input_XStream
+e.g.
+./bazelisk-linux-amd64 run //examples:XStreamFuzzer2 -- /home/flo/Documents/HS21/FuzzTesting/project/FuzzingSeminar/jazzer/input_XStream/
