@@ -1,0 +1,30 @@
+start_time        : 1639503318
+last_update       : 1639671308
+fuzzer_pid        : 903442
+cycles_done       : 79563
+execs_done        : 451231634
+execs_per_sec     : 2695.37
+paths_total       : 23
+paths_favored     : 6
+paths_found       : 22
+paths_imported    : 0
+max_depth         : 5
+cur_path          : 20
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.08%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1639513112
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 451231634
+exec_timeout      : 5
+afl_banner        : xxhsum
+afl_version       : 2.57b
+target_mode       : default
+command_line      : ./AFL/afl-fuzz -t 5 -i project/corpus/afl_empty_corpus/ -o project/AFL_findings/without_corpus/ newxxHash/xxHash/xxhsum @@
+slowest_exec_ms   : 5
+peak_rss_mb       : not available while afl is running

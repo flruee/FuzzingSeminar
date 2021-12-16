@@ -1,0 +1,6 @@
+# environment variables:
+AFL_KILL_SIGNAL=9
+AFL_LLVM_ALLOWLIST=/home/group6/newxxHash/xxHash_persistent/top_target_func.txt
+AFL_LLVM_INSTRUMENT=LLVM-NATIVE
+# command line:
+'./AFLplusplus/afl-fuzz' '-t' '5' '-D' '-i' 'project/corpus/afl++_crypto_corpus/' '-o' 'project/AFL++_findings/with_corpus/' 'newxxHash/xxHash/persistent_target' '@@'
