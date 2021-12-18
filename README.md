@@ -3,10 +3,11 @@
 ## Setup
 
 ### AFL
-`git clone https://github.com/google/AFL`
-
+`git clone https://github.com/google/AFL`  
+then build with make
 ### AFL++
-`git clone https://github.com/AFLplusplus/AFLplusplus`
+`git clone https://github.com/AFLplusplus/AFLplusplus`  
+then build with make
 
 ### xxHash
 Clone repo  
