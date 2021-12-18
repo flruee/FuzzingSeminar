@@ -5,5 +5,5 @@ import pandas as pd
 df = pd.read_csv("xxhash_data.csv")
 
 print(df.columns)
-plt.plot(df["unix_time"],df["paths_total"])
+plt.hist(df["cur_path"])
 plt.show()

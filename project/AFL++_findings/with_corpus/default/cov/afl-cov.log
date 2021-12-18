@@ -1,0 +1,273 @@
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --initial --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcno files ...
+    Found 1 graph files in .
+    Processing persistent_target.gcno
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno!
+
+*** Imported 16 new test cases from: ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//queue
+
+[+] AFL test case: id:000000,time:0,orig:ffbe087080ba31bcb83e5ce07e9b00572edc6217 (0 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmp8v54tfr2
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000001,time:0,orig:fbb4e30f9c528304821b91ae398eb151be553253 (1 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmpdg5t0faa
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000002,time:0,orig:e1500fceb4795c115a0d74bac4be8ef3c534a917 (2 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmpwg81qwxj
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000003,time:0,orig:d6a617adce65f5e26d0b216b04cf5faf774ae5df (3 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmp78gwo16b
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000004,time:0,orig:c7da1ff95a25c353f1319604703e8bfd287ee1a1 (4 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmpvbl6wlub
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000005,time:0,orig:c2362d184e23bd7969c2ef6c3937ceb7d1f7b3c3 (5 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmpix819xhh
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000006,time:0,orig:b4d11620cbd84d8f68d387969c7e1b6db5b437f9 (6 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmpkww4rrgb
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000007,time:0,orig:9462c44f3145eac202e24f796cc5ae32624a35e2 (7 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmppmddq80s
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000008,time:0,orig:8dba4468fc31b9fe473da67e89d50008942fe47b (8 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmptbx2ur7i
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000009,time:0,orig:5e1e8859013f66cf7e668abbab50e7a56aadc532 (9 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmp6pvpfwpt
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000010,time:0,orig:586fd0667ba1b1ece5e484d89c89a04fe851e855 (10 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmpavzqkr77
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000011,time:0,orig:57841410d44283794e6b1a0c63e4f7e178074487 (11 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmp0ou668mb
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000012,time:0,orig:03153e062ea4de7d0614f8436334d86b2b1a8980 (12 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmp_2j2ru2y
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000013,src:000009,time:15727,op:havoc,rep:8,+cov (13 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmpi2l93rmv
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000014,src:000009,time:15728,op:havoc,rep:2,+cov (14 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmp5cw0x9g6
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] AFL test case: id:000015,src:000009,time:15728,op:havoc,rep:2,+cov (15 / 16), cycle: 0
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmpiz90jw6t
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+[-] Coverage file '../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final' does not exist, skipping.
+[+] Processed 16 / 16 test cases.
+
+[+] Final zero coverage report: ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/zero-cov
+[+] Final positive coverage report: ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/pos-cov
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum --capture --directory . --output-file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info
+    Capturing coverage data from .
+    Found gcov version: 10.3.0
+    Using intermediate gcov format
+    Scanning . for .gcda files ...
+    Found 1 data files in .
+    Processing persistent_target.gcda
+    /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcno:version '408*', prefer 'B03*'
+    geninfo: ERROR: GCOV failed for /home/flo/Documents/HS21/FuzzTesting/xxHash_gcov/persistent_target.gcda!
+    Non-zero exit status '255' for CMD: /usr/bin/lcov --no-checksum -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base -a ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info --output-file /tmp/tmp3fdfq2sw
+    lcov: ERROR: no valid records found in tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Combining tracefiles.
+    Reading tracefile ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_base
+    Non-zero exit status '9' for CMD: /usr/bin/genhtml --output-directory ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/web ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final
+    genhtml: ERROR: cannot read file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final!
+    Reading data file ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/lcov/trace.lcov_info_final
+[+] Final lcov web report: ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default//cov/web/index.html

@@ -1,0 +1,3 @@
+afl_cov_pid     : 1202313
+afl_cov_version : 0.7.0
+command_line    : ../afl-cov/afl-cov -d ../project/FuzzingSeminar/project/AFL++_findings/with_corpus/default/ --coverage-cmd LD_LIBRARY_PATH=./lib/.libs ./persistent_target --code-dir . --overwrite
