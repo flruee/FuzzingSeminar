@@ -1,0 +1,4 @@
+# environment variables:
+AFL_KILL_SIGNAL=9
+# command line:
+'AFLplusplus/afl-fuzz' '-d' '-i' 'project/corpus/afl++_empty_corpus/' '-o' 'project/AFL++_findings/xxhsum_withoutCorpus/' 'newxxHash/xxHash/xxhsum'

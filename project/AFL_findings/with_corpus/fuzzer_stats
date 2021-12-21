@@ -1,15 +1,15 @@
 start_time        : 1639503273
-last_update       : 1639671325
+last_update       : 1639852163
 fuzzer_pid        : 719739
-cycles_done       : 102197
-execs_done        : 466917497
-execs_per_sec     : 2779.51
+cycles_done       : 222944
+execs_done        : 990445284
+execs_per_sec     : 3698.22
 paths_total       : 20
 paths_favored     : 6
 paths_found       : 7
 paths_imported    : 0
 max_depth         : 5
-cur_path          : 13
+cur_path          : 15
 pending_favs      : 0
 pending_total     : 0
 variable_paths    : 0
@@ -20,11 +20,11 @@ unique_hangs      : 0
 last_path         : 1639510541
 last_crash        : 0
 last_hang         : 0
-execs_since_crash : 466917497
+execs_since_crash : 990445284
 exec_timeout      : 5
 afl_banner        : xxhsum
 afl_version       : 2.57b
 target_mode       : default
 command_line      : ./AFL/afl-fuzz -t 5 -i project/corpus/afl_crypto_corpus/ -o project/AFL_findings/with_corpus/ newxxHash/xxHash/xxhsum @@
 slowest_exec_ms   : 5
-peak_rss_mb       : not available while afl is running
+peak_rss_mb       : 2
